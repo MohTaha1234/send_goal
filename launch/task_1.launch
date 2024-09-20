@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+ <launch> 
+ <node name="turtle_move_to_goal" pkg="task_1" type="goal.py" output="screen"/> 
+ 
+ <node name="turtle_move_to_goal" pkg="turtlesim" type="turtlesim"/> 
+</launch> 
